@@ -1,0 +1,43 @@
+p {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-style: italic;
+}
+h2 {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-style: bold;
+}
+.btn {
+    background-color: #345371;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-style: italic;
+}
+strong {
+  color: white;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-style: italic;
+  /* background-color: black; */
+}
+a.navbar-shrink {
+  color: white;
+}
+
+#mainNav.navbar-shrink {
+  background-color: black;
+}
+#mainNav {
+  background-color: black;
+}
+#navbarResponsive {
+  background-color: black;
+}
+.img-responsive {
+    height: auto;
+    width: auto;
+    max-height: 75px;
+    max-width: 250px;
+}
