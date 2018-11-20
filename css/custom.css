@@ -1,29 +1,49 @@
 p {
-  font-family: 'Open Sans';
-  font-weight: 300;
-  font-style: italic;
+  font-family: century-gothic, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 h2 {
-  font-family: 'Open Sans';
+  font-family: century-gothic, sans-serif;
+  font-style: normal;
   font-weight: 400;
-  font-style: bold;
 }
 .btn {
     background-color: #345371;
     color: white;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-style: italic;
+    font-family: century-gothic, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+#mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+    color: white;
+    text-transform: none;
+}
+
+#mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
+  color: white;
+  text-transform: none;
+}
+.nav-link {
+  font-family: century-gothic, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: white;
 }
 strong {
   color: white;
-  font-family: 'Open Sans';
+  font-family: century-gothic, sans-serif;
+  font-style: normal;
   font-weight: 400;
-  font-style: italic;
-  /* background-color: black; */
 }
-a.navbar-shrink {
+h2.h-landing {
+  position: absolute;
+  top: 88px;
+  left: 0px;
   color: white;
+  font-family: century-gothic, sans-serif;
+  font-style: normal;
+  font-weight: 200;
 }
 
 #mainNav.navbar-shrink {
