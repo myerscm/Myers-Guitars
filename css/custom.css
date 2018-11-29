@@ -2,11 +2,17 @@ p {
   font-family: century-gothic, sans-serif;
   font-style: normal;
   font-weight: 400;
+  text-align: center;
 }
-h2 {
+section {
+  background-color: black;
+  font-family: century-gothic, sans-serif;"
+}
+h2, h3 {
   font-family: century-gothic, sans-serif;
   font-style: normal;
   font-weight: 400;
+  color: white;
 }
 .btn {
     background-color: #345371;
@@ -15,14 +21,40 @@ h2 {
     font-style: normal;
     font-weight: 400;
 }
+.white {
+  color: white;
+  text-align: center;
+}
+.carousel-item {
+  min-width: 500px;
+  min-height: 500px;
+}
+#modelscarousel {
+  float: left;
+  display: inline-block;
+}
+.mtext {
+  display: inline-block;
+  min-height: 500px;
+}
+#orpheum-model-text {
+}
 #mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
     color: white;
     text-transform: none;
+    font-family: century-gothic, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1.5rem;
 }
 
 #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
   color: white;
   text-transform: none;
+  font-family: century-gothic, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1.5rem;
 }
 .nav-link {
   font-family: century-gothic, sans-serif;
