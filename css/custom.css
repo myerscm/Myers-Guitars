@@ -33,6 +33,10 @@ h2, h3 {
   float: left;
   display: inline-block;
 }
+#modelscarouselsc {
+  float: left;
+  display: inline-block;
+}
 .mtext {
   display: inline-block;
   min-height: 500px;
@@ -61,6 +65,10 @@ h2, h3 {
   font-style: normal;
   font-weight: 300;
   color: white;
+  margin-right: 10px;
+}
+a.nav-link.js-scroll-trigger:hover {
+  color: #D9690C;
 }
 strong {
   color: white;
