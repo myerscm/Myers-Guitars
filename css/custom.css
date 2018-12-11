@@ -6,7 +6,7 @@ p {
 }
 section {
   background-color: black;
-  font-family: century-gothic, sans-serif;"
+  font-family: century-gothic, sans-serif;
 }
 h2, h3 {
   font-family: century-gothic, sans-serif;
@@ -15,6 +15,13 @@ h2, h3 {
   color: white;
 }
 .btn {
+    background-color: #345371;
+    color: white;
+    font-family: century-gothic, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.btn-primary {
     background-color: #345371;
     color: white;
     font-family: century-gothic, sans-serif;
@@ -36,6 +43,11 @@ h2, h3 {
 #modelscarouselsc {
   float: left;
   display: inline-block;
+}
+.features-text {
+  background-color: black;
+  font-family: century-gothic, sans-serif;
+  color: rgba(255,255,255,.7);
 }
 .mtext {
   display: inline-block;
