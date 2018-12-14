@@ -99,7 +99,10 @@ h2.h-landing {
   font-style: normal;
   font-weight: 200;
 }
-
+.carousel-item {
+  text-align: center;
+}
+}
 #mainNav.navbar-shrink {
   background-color: black;
 }
