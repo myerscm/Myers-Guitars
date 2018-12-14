@@ -1,3 +1,7 @@
+body {
+  font-size: .8rem;
+}
+
 p {
   font-family: century-gothic, sans-serif;
   font-style: normal;
@@ -102,6 +106,12 @@ h2.h-landing {
 .carousel-item {
   text-align: center;
 }
+.modal-thumb {
+  max-width: 250px;
+}
+@media (min-width: 992px)
+#mainNav.navbar-shrink {
+    background-color: black;
 }
 #mainNav.navbar-shrink {
   background-color: black;
