@@ -108,6 +108,10 @@ h2.h-landing {
 }
 .modal-thumb {
   max-width: 250px;
+  max-height: 225px;
+}
+#thumbnail-1 {
+  text-align: center;
 }
 @media (min-width: 992px)
 #mainNav.navbar-shrink {
