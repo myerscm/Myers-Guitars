@@ -110,6 +110,9 @@ h2.h-landing {
   max-width: 250px;
   max-height: 225px;
 }
+.thumbnail-and-modal {
+  text-align: center;
+}
 #thumbnail-1 {
   text-align: center;
 }
