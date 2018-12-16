@@ -11,6 +11,7 @@ p {
 section {
   background-color: black;
   font-family: century-gothic, sans-serif;
+  height: 100vh;
 }
 h2, h3 {
   font-family: century-gothic, sans-serif;
@@ -120,11 +121,11 @@ h2.h-landing {
 #mainNav.navbar-shrink {
     background-color: black;
 }
-@media  screen and (max-width: 1920px) {
+/* @media  screen and (max-width: 1920px) {
   section {
     height: 100vh;
   }
-}
+} */
 #mainNav.navbar-shrink {
   background-color: black;
 }
