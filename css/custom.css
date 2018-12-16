@@ -1,5 +1,5 @@
 body {
-  font-size: .8rem;
+  font-size: 1rem;
 }
 
 p {
@@ -108,8 +108,8 @@ h2.h-landing {
   text-align: center;
 }
 .modal-thumb {
-  max-width: 250px;
-  max-height: 225px;
+  max-width: 500px;
+  max-height: 500px;
 }
 .thumbnail-and-modal {
   text-align: center;
