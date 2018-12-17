@@ -107,6 +107,19 @@ h2.h-landing {
 .carousel-item {
   text-align: center;
 }
+.sc-carousel {
+  max-height: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.orpheum-carousel {
+  max-height: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+div.carousel-item-active {
+  margin-top: 10px;
+}
 .modal-thumb {
   max-width: 500px;
   max-height: 500px;
