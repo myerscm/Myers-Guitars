@@ -23,6 +23,12 @@ h2, h3 {
   font-weight: 400;
   color: white;
 }
+@media (max-width: 500px){
+  .modal-heading{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+  }
+}
 .embed-responsive-4by3::before {
   padding-top: 55%;
 }
@@ -67,6 +73,24 @@ h2, h3 {
   background-color: black;
   font-family: century-gothic, sans-serif;
   color: rgba(255,255,255,.7);
+}
+@media (max-width: 500px){
+  .features-text {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    font-size: .5rem;
+  }
+}
+@media (max-width: 500px){
+  #sc-button-mobile {
+    margin-bottom: .3rem;
+  }
+}
+@media (max-width: 500px){
+  #sc-model-text {
+    margin-bottom: .3rem;
+  }
 }
 .mtext {
   display: inline-block;
@@ -122,19 +146,16 @@ h2.h-landing {
 .carousel-item {
   text-align: center;
 }
-.sc-carousel {
-  max-height: 500px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.orpheum-carousel {
+.u-carousel {
   max-height: 500px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 @media (max-width: 500px){
-  .orpheum-carousel {
+  .u-carousel {
     max-height: 250px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 }
 
