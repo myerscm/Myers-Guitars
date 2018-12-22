@@ -32,6 +32,16 @@ h2, h3 {
 .embed-responsive-4by3::before {
   padding-top: 55%;
 }
+@media (max-width: 500px){
+  .masthead {
+    height: 100vh;
+  }
+}
+@media (max-width: 736px){
+  .masthead {
+    height: 100vh;
+  }
+}
 .btn {
     background-color: #345371;
     color: white;
@@ -61,6 +71,12 @@ h2, h3 {
     min-width: 0;
   }
 }
+@media (max-width: 736px){
+  .carousel-item{
+    min-height: 0;
+    min-width: 0;
+  }
+}
 #modelscarousel {
   float: left;
   display: inline-block;
@@ -75,6 +91,14 @@ h2, h3 {
   color: rgba(255,255,255,.7);
 }
 @media (max-width: 500px){
+  .features-text {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    font-size: .5rem;
+  }
+}
+@media (max-width: 736px){
   .features-text {
     padding-left: 0;
     padding-right: 0;
@@ -99,6 +123,12 @@ h2, h3 {
 @media (max-width: 500px){
   .mtext {
     min-height: 0;
+  }
+}
+@media (max-width: 736px){
+  .mtext {
+    min-height: 0;
+    overflow-y: scroll;
   }
 }
 #mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
@@ -154,6 +184,13 @@ h2.h-landing {
 @media (max-width: 500px){
   .u-carousel {
     max-height: 250px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 736px){
+  .u-carousel {
+    max-height: 150px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
@@ -230,6 +267,12 @@ div.carousel-item-active {
   z-index: 100000;
 }
 @media (max-width: 500px){
+  .outer-modal{
+    height: auto;
+    min-height: 100vh;
+  }
+}
+@media (max-width: 736px){
   .outer-modal{
     height: auto;
     min-height: 100vh;
