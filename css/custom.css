@@ -268,17 +268,24 @@ div.carousel-item-active {
 }
 @media (max-width: 500px){
   .outer-modal{
-    height: auto;
-    min-height: 100vh;
+    height: 100vh;
+    /* min-height: 100vh; */
   }
 }
 @media (max-width: 736px){
   .outer-modal{
-    height: auto;
-    min-height: 100vh;
+    height: 100vh;
+    /* min-height: 100vh; */
+    overflow-y: scroll;
   }
 }
 .modal-container{
   background-color: black;
   width: 95%;
+  min-height: 100vh;
 }
+/* @media (max-width: 736px){
+  .modal-container {
+    overflow-y: scroll;
+  }
+} */
