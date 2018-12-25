@@ -282,10 +282,10 @@ div.carousel-item-active {
 .modal-container{
   background-color: black;
   width: 95%;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
-/* @media (max-width: 736px){
+@media (max-width: 736px){
   .modal-container {
-    overflow-y: scroll;
+    min-height: 100vh;
   }
-} */
+}
