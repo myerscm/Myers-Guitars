@@ -228,11 +228,6 @@ div.carousel-item-active {
 #navbarResponsive {
   background-color: black;
 }
-@media  screen and (max-width: 1920px) {
-  .warranty-div {
-    font-size: .9rem;
-  }
-}
 .img-responsive {
     height: auto;
     width: auto;
